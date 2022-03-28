@@ -20,6 +20,7 @@ li{
     margin-right: 10%;
     font-size: 1.2rem;
 }
+
 /* Headings */
 
 .big-heading{
@@ -38,14 +39,29 @@ li{
     line-height: 1.5;
     font-weight: bold;
 }
+
+/* Containers */
+
 .container-fluid{
     padding: 7% 15%;
 }
 
+/* Sections */
+.colored-section{
+
+    background-color: #ff4c68;
+    color: #fff;
+}
+.white-section{
+    background-color: #fff;
+}
+
+
 /* Title Section */
 
-#title{
-    background-color: #ff4c68;
+#title .container-fluid{
+
+    padding: 3% 15% 0%;
     text-align: left;
 }
 #nav-brand{
@@ -76,7 +92,6 @@ li{
 
         text-align: center;
     }
-    
 }
 
 /* Features Section */
@@ -85,8 +100,6 @@ li{
 
     text-align: center;
     position: relative;
-    background-color: white;
-    
 }
 #features h3{
 
@@ -111,11 +124,6 @@ li{
 
 /* Testimonials Section */
 
-#testimonials{
-
-    background-color: #ff4c68;
-    color: white;
-}
 .testimonials-img{
 
     width: 10%;
@@ -127,8 +135,6 @@ li{
     padding: 0 15%;
 }
 #press{
-
-    background-color: #ff4c68;
     padding-bottom: 3%;
 }
 .press-img{
@@ -139,11 +145,6 @@ li{
 
 /* Call to Action Section */
 
-#cta{
-
-    background-color: #ff4c68;
-    color: white;
-}
 #cta-h3{
     margin: 0 auto 5%;
     font-size: 2.8rem;
